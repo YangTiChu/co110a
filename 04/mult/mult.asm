@@ -7,3 +7,13 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
 // Put your code here.
+@5
+D=A
+@1
+M=D
+@0
+M=M+1
+@2
+M=D+M
+@4
+A;JMP
